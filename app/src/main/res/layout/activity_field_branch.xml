@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FieldBranch"
+    android:background="@drawable/bookback">
+
+
+    <Button
+        android:id="@+id/SubmitField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="177dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actv4" />
+
+    <Spinner
+        android:id="@+id/actv1"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="69dp"
+        android:hint="FIELD"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/actv2"
+        android:layout_width="281dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="69dp"
+        android:hint="BRANCH"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actv1"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/actv3"
+        android:layout_width="281dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="69dp"
+        android:hint="YEAR"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actv2"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/actv4"
+        android:layout_width="281dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="69dp"
+        android:hint="SEMESTER"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actv3"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Book Sharing</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Profile</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_Logout">Logout</string>
+
+    <string name="donor"><u>DONOR</u></string>
+    <string name="donee"><u>DONEE</u></string>
+    <string name="BOOKreg"><u>BOOK REGISTRATION</u></string>
+    <string name="NOtreg"><u>NOTES REGISTRATION</u></string>
+    <string name="MAreg"><u>MATERIAL REGISTRATION</u></string>
+    <string name="REFE"><u>REFERENCE</u></string>
+    <string name="menu_home">Book Sharing</string>
+    <string name="menu_books">Books</string>
+    <string name="menu_stationary_material">Stationery Material</string>
+    <string name="menu_short_note">Short Note</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_senior_home">Home</string>
+    <string name="action_settings">Logout</string>
+
+</resources>
